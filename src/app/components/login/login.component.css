@@ -1,0 +1,24 @@
+.centrado {
+    margin: auto;
+}
+
+.cuadro {
+    margin: 5%;
+    padding: 5%;
+}
+
+p-datatable-wrapper {
+    padding: 50%;
+}
+
+table {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1%;
+}
+
+.boton {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 2%;
+}

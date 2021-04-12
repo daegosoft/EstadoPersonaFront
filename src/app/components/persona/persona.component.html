@@ -1,0 +1,17 @@
+<div class="card">
+    <h1>Listado de Personas</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th *ngFor="let col of columnas">{{col.header}}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row" *ngFor="let fila of personas">
+                    <div *ngFor="let col of columnas">{{fila[col.field]}}</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
